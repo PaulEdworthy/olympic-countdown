@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --color-white: #fff;
+}
+
+body {
+  background: url(img/rings-at-dusk.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#timer {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.header__text {
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+.main__title {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.date {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.time_box {
+  display: flex;
+  float: right;
+  font-size: 1.5rem;
+  padding: 2rem 8rem 0
+}
+
+.time__wrapper {
+  background-color:rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--color-white);
+  border-radius: 10px;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.list__item {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.list__item__time {
+  text-align: center;
+}
